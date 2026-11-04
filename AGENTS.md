@@ -2,7 +2,7 @@
 
 Keep update titles and descriptions short. This repository documents completed work; it does not deploy or modify the website.
 
-Before recording an item, verify the implementation and actual completion date against source files and saved build, test or deployment records. Use `data/completed-work.json` to avoid duplicates. Record at most one previously unlogged verified item per hourly run. Keep its actual completion date in the entry; never backdate Git commits or present a historical item as work just performed.
+Before recording an item, verify the implementation and actual completion date against source files and saved build, test or deployment records. Use `data/completed-work.json` to avoid duplicates. Keep each update short and record each verified item once. Keep its actual completion date in the entry; never backdate Git commits or present a historical item as work just performed.
 
 Every commit must add or correct useful documentation. Do not make empty commits, repeat an item to create activity, invent results, or claim image caching or preloading improvements without verified changes. Approval-pending local changes must remain clearly labelled pending and must not be counted as deployed work.
 
