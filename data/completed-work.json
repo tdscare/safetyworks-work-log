@@ -9,25 +9,37 @@
       "title": "SEO optimization",
       "summary": "Improved service titles and canonical URLs.",
       "completed_on": "2026-11-03",
-      "implementation": ["src/lib/seo.ts", "src/routes/services_.$slug.tsx"],
+      "implementation": [
+        "src/lib/seo.ts",
+        "src/routes/services_.$slug.tsx"
+      ],
       "entry": "updates/seo-optimization.md",
       "recorded": true
     },
     {
       "id": "enquiry-contact-validation",
-      "title": "Improved enquiry forms",
+      "title": "Enquiry form validation",
       "summary": "Enquiries accept an email address or phone number.",
       "completed_on": "2026-11-03",
-      "implementation": ["src/lib/enquiry-input.ts", "src/lib/api/booking.functions.ts", "src/lib/api/enquiries.functions.ts"],
+      "implementation": [
+        "src/lib/enquiry-input.ts",
+        "src/lib/api/booking.functions.ts",
+        "src/lib/api/enquiries.functions.ts"
+      ],
       "entry": "updates/enquiry-forms.md",
-      "recorded": false
+      "recorded": true,
+      "recorded_at": "2026-11-05T09:18:26Z",
+      "recorded_on": "2026-11-05"
     },
     {
       "id": "accepted-enquiry-measurement",
       "title": "Improved enquiry tracking",
       "summary": "Recorded leads after accepted enquiries.",
       "completed_on": "2026-11-03",
-      "implementation": ["src/lib/trackConversion.ts", "src/routes/index.tsx"],
+      "implementation": [
+        "src/lib/trackConversion.ts",
+        "src/routes/index.tsx"
+      ],
       "entry": "updates/enquiry-tracking.md",
       "recorded": false
     },
@@ -36,7 +48,9 @@
       "title": "Updated analytics consent",
       "summary": "Analytics loading follows saved consent.",
       "completed_on": "2026-11-03",
-      "implementation": ["src/components/site/AnalyticsInjector.tsx"],
+      "implementation": [
+        "src/components/site/AnalyticsInjector.tsx"
+      ],
       "entry": "updates/analytics-consent.md",
       "recorded": false
     },
@@ -45,7 +59,9 @@
       "title": "Improved analytics privacy",
       "summary": "Excluded private routes and personal query details from manual page-view tracking.",
       "completed_on": "2026-11-03",
-      "implementation": ["src/lib/analytics.ts"],
+      "implementation": [
+        "src/lib/analytics.ts"
+      ],
       "entry": "updates/analytics-privacy.md",
       "recorded": false
     },
@@ -54,7 +70,10 @@
       "title": "Improved enquiry navigation",
       "summary": "Preserved course and area details in enquiry navigation.",
       "completed_on": "2026-11-03",
-      "implementation": ["src/lib/quote-context.ts", "src/components/site/MobileCallBar.tsx"],
+      "implementation": [
+        "src/lib/quote-context.ts",
+        "src/components/site/MobileCallBar.tsx"
+      ],
       "entry": "updates/enquiry-navigation.md",
       "recorded": false
     },
@@ -63,7 +82,10 @@
       "title": "Updated training coverage pages",
       "summary": "Aligned local pages with published training coverage.",
       "completed_on": "2026-11-03",
-      "implementation": ["src/routes/coverage_.$slug.tsx", "src/routes/training_.$service_.$county.tsx"],
+      "implementation": [
+        "src/routes/coverage_.$slug.tsx",
+        "src/routes/training_.$service_.$county.tsx"
+      ],
       "entry": "updates/training-coverage.md",
       "recorded": false
     },
@@ -72,7 +94,10 @@
       "title": "Updated sitemap",
       "summary": "Corrected sitemap dates and retired course routes.",
       "completed_on": "2026-11-03",
-      "implementation": ["src/lib/sitemap.ts", "src/routes/sitemap[.]xml.tsx"],
+      "implementation": [
+        "src/lib/sitemap.ts",
+        "src/routes/sitemap[.]xml.tsx"
+      ],
       "entry": "updates/sitemap.md",
       "recorded": false
     },
@@ -81,7 +106,10 @@
       "title": "Improved mobile enquiry layout",
       "summary": "Prevented the cookie banner from overlapping the mobile enquiry bar.",
       "completed_on": "2026-11-03",
-      "implementation": ["src/components/site/CookieBanner.tsx", "src/components/site/MobileCallBar.tsx"],
+      "implementation": [
+        "src/components/site/CookieBanner.tsx",
+        "src/components/site/MobileCallBar.tsx"
+      ],
       "entry": "updates/mobile-enquiry-layout.md",
       "recorded": false
     }
