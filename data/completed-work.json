@@ -12,7 +12,9 @@
       "implementation": [],
       "entry": "updates/seo-optimization.md",
       "recorded": true,
-      "status": "needs_provenance_review"
+      "status": "superseded_by_review",
+      "superseded_by": "service-metadata-review-2026-11-05",
+      "completion_claim_verified": false
     },
     {
       "id": "enquiry-contact-validation",
@@ -159,6 +161,21 @@
       "source_evidence": "security-local-checks-2026-11-05.json",
       "recorded": true,
       "recorded_at": "2026-11-05T23:34:39.947Z",
+      "recorded_on": "2026-11-05"
+    },
+    {
+      "id": "service-metadata-review-2026-11-05",
+      "title": "Service metadata check",
+      "summary": "Checked service page metadata.",
+      "completed_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "scope": "source_and_local_preview_review",
+      "status": "reviewed",
+      "entry": "updates/service-metadata-review.md",
+      "source_evidence": "service-metadata-review-2026-11-05.json",
+      "verification_limit": "Reviewed source and local fixture metadata; live request returned403, so production metadata was not verified.",
+      "recorded": true,
+      "recorded_at": "2026-11-05T23:40:41.878Z",
       "recorded_on": "2026-11-05"
     }
   ],

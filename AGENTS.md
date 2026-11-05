@@ -1,6 +1,6 @@
 # Work-log updates
 
-Keep update titles and descriptions short. This repository documents completed work; it does not deploy or modify the website.
+Use a short title, one plain sentence and a simple completion or review date. Keep source references, test counts and detailed verification in the internal manifest or local records, not in the posts or README. This repository documents completed work; it does not deploy or modify the website. A completed check may be logged as “Checked …” without implying code was changed.
 
 Separate completed changes may have separate short updates, including within the same 10–15 minutes. There is no daily cap, posting quota or minimum interval. Match each update to a verified change, record it once and use its real completion date. Changes completed together may also be grouped when clearer. An existing entry on the same day does not block another distinct change. Do not split one change into filler posts or repeat the already recorded Christmas copy and accreditation update.
 
