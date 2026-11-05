@@ -2,6 +2,8 @@
 
 Keep update titles and descriptions short. This repository documents completed work; it does not deploy or modify the website.
 
+Separate completed changes may have separate short updates, including within the same 10–15 minutes. There is no daily cap, posting quota or minimum interval. Match each update to a verified change, record it once and use its real completion date. Changes completed together may also be grouped when clearer. An existing entry on the same day does not block another distinct change. Do not split one change into filler posts or repeat the already recorded Christmas copy and accreditation update.
+
 Before recording an item, verify the implementation and actual completion date against source files and saved build, test or deployment records. Use `data/completed-work.json` to avoid duplicates. Keep each update short and record each verified item once. Keep its actual completion date in the entry; never backdate Git commits or present a historical item as work just performed.
 
 Describe the specific change from the earlier site, not the existence of a feature. Check the saved pre-change source or a reliable commit diff; do not credit work already present in Keenos' site as newly performed. The enquiry form already existed. Its validation change must be described precisely and retain the 3 November work date. Invisibility to a visitor is not evidence that a backend change happened. Scheduled retrospective posts are paused pending provenance review; do not resume without the user's instruction.
