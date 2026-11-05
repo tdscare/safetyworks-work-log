@@ -146,6 +146,20 @@
       "recorded": true,
       "recorded_at": "2026-11-05T23:34:38.720Z",
       "recorded_on": "2026-11-05"
+    },
+    {
+      "id": "outreach-private-file-permissions-2026-11-05",
+      "title": "Private file permissions",
+      "summary": "Removed an obsolete account’s access from six private outreach files.",
+      "completed_on": "2026-11-05",
+      "applied_on": "2026-11-05",
+      "scope": "private_outreach_app",
+      "status": "applied_locally",
+      "entry": "updates/private-file-permissions.md",
+      "source_evidence": "security-local-checks-2026-11-05.json",
+      "recorded": true,
+      "recorded_at": "2026-11-05T23:34:39.947Z",
+      "recorded_on": "2026-11-05"
     }
   ],
   "pending_items": []

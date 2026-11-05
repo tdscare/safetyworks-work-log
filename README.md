@@ -2,6 +2,7 @@
 
 ## 5 November 2026
 
+- [Private file permissions](updates/private-file-permissions.md).
 - [Outreach dependency updates](updates/outreach-dependency-updates.md).
 - [Christmas copy and accreditation text](updates/christmas-copy-accreditation.md).
 
