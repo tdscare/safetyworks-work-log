@@ -2,6 +2,7 @@
 
 ## 5 November 2026
 
+- [Outreach dependency updates](updates/outreach-dependency-updates.md).
 - [Christmas copy and accreditation text](updates/christmas-copy-accreditation.md).
 
 ## 3 November 2026

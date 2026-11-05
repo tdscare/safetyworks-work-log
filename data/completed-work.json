@@ -132,6 +132,20 @@
       "recorded": true,
       "recorded_on": "2026-11-05",
       "cloudflare_version": "817475ff-04a7-4839-8dc8-b6d7f65b1956"
+    },
+    {
+      "id": "outreach-dependency-hardening-2026-11-05",
+      "title": "Outreach dependency updates",
+      "summary": "Updated the private outreach app’s dependencies and checked all 274 tests.",
+      "completed_on": "2026-11-05",
+      "applied_on": "2026-11-05",
+      "scope": "private_outreach_app",
+      "status": "applied_locally",
+      "entry": "updates/outreach-dependency-updates.md",
+      "source_evidence": "outreach-dependency-hardening-receipt-2026-11-05.json",
+      "recorded": true,
+      "recorded_at": "2026-11-05T23:34:38.720Z",
+      "recorded_on": "2026-11-05"
     }
   ],
   "pending_items": []
