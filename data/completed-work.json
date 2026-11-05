@@ -111,15 +111,13 @@
       ],
       "entry": "updates/mobile-enquiry-layout.md",
       "recorded": false
-    }
-  ],
-  "pending_items": [
+    },
     {
       "id": "christmas-team-and-accreditation-copy",
       "title": "Christmas copy and accreditation text",
       "prepared_on": "2026-11-05",
-      "status": "awaiting_preview_approval",
-      "deployed_on": null,
+      "status": "published",
+      "deployed_on": "2026-11-05",
       "entry": "updates/christmas-copy-accreditation.md",
       "implementation": [
         "src/components/site/ChristmasForkliftBanner.tsx",
@@ -127,7 +125,14 @@
         "src/routes/services_.$slug.tsx",
         "src/routes/$slug.tsx",
         "src/routes/training_.$service_.$county.tsx"
-      ]
+      ],
+      "completed_on": "2026-11-05",
+      "deployed_at": "2026-11-05T13:31:51.493914Z",
+      "approved_on": "2026-11-05",
+      "recorded": true,
+      "recorded_on": "2026-11-05",
+      "cloudflare_version": "817475ff-04a7-4839-8dc8-b6d7f65b1956"
     }
-  ]
+  ],
+  "pending_items": []
 }

@@ -1,8 +1,8 @@
 # SafetyWorks updates
 
-## Ready for review
+## 5 November 2026
 
-- [Christmas copy and accreditation text](updates/christmas-copy-accreditation.md) — 5 November 2026.
+- [Christmas copy and accreditation text](updates/christmas-copy-accreditation.md).
 
 ## 3 November 2026
 
