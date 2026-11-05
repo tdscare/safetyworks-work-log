@@ -1,7 +1,7 @@
-# Enquiry form validation
+# Allow phone-only enquiries
 
-Enquiries accept an email address or phone number.
+Adjusted existing enquiry forms to accept a valid phone number without requiring email.
 
 Completed: 3 November 2026.
 
-Source: `src/lib/enquiry-input.ts` and the booking/enquiry API validation.
+Source: the existing booking and contact forms.

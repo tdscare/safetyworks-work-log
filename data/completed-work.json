@@ -1,30 +1,29 @@
 {
   "version": 1,
   "source_repository": "tdscare/safetyworks-training",
-  "evidence_checked_on": "2026-11-04",
+  "evidence_checked_on": "2026-11-05",
   "publication_evidence": "Saved 3 November 2026 deployment, test and build records; live behaviour was checked on that date.",
   "items": [
     {
       "id": "service-search-metadata",
-      "title": "SEO optimization",
-      "summary": "Improved service titles and canonical URLs.",
+      "title": "Service metadata review",
+      "summary": "No new service-title or canonical-URL change is evidenced: both previously cited files are unchanged from the saved baseline.",
       "completed_on": "2026-11-03",
-      "implementation": [
-        "src/lib/seo.ts",
-        "src/routes/services_.$slug.tsx"
-      ],
+      "implementation": [],
       "entry": "updates/seo-optimization.md",
-      "recorded": true
+      "recorded": true,
+      "status": "needs_provenance_review"
     },
     {
       "id": "enquiry-contact-validation",
-      "title": "Enquiry form validation",
-      "summary": "Enquiries accept an email address or phone number.",
+      "title": "Allow phone-only enquiries",
+      "summary": "Adjusted existing enquiry forms to accept a valid phone number without requiring email.",
       "completed_on": "2026-11-03",
       "implementation": [
         "src/lib/enquiry-input.ts",
-        "src/lib/api/booking.functions.ts",
-        "src/lib/api/enquiries.functions.ts"
+        "src/routes/book.tsx",
+        "src/routes/contact.tsx",
+        "src/routes/index.tsx"
       ],
       "entry": "updates/enquiry-forms.md",
       "recorded": true,
@@ -33,8 +32,8 @@
     },
     {
       "id": "accepted-enquiry-measurement",
-      "title": "Improved enquiry tracking",
-      "summary": "Recorded leads after accepted enquiries.",
+      "title": "Track accepted homepage enquiries",
+      "summary": "Connected successful homepage enquiries to existing lead tracking and added duplicate-reference protection.",
       "completed_on": "2026-11-03",
       "implementation": [
         "src/lib/trackConversion.ts",
@@ -45,8 +44,8 @@
     },
     {
       "id": "consent-aware-analytics",
-      "title": "Updated analytics consent",
-      "summary": "Analytics loading follows saved consent.",
+      "title": "Restrict analytics loading and update consent handling",
+      "summary": "Restricted existing analytics loading to production, validated tag IDs and added explicit consent updates.",
       "completed_on": "2026-11-03",
       "implementation": [
         "src/components/site/AnalyticsInjector.tsx"
@@ -56,34 +55,35 @@
     },
     {
       "id": "private-route-measurement",
-      "title": "Improved analytics privacy",
-      "summary": "Excluded private routes and personal query details from manual page-view tracking.",
+      "title": "Filter manual page-view details",
+      "summary": "Added manual GA4 page-view tracking that omits query details and skips private routes.",
       "completed_on": "2026-11-03",
       "implementation": [
-        "src/lib/analytics.ts"
+        "src/lib/analytics.ts",
+        "src/components/site/AnalyticsInjector.tsx"
       ],
       "entry": "updates/analytics-privacy.md",
       "recorded": false
     },
     {
       "id": "enquiry-course-context",
-      "title": "Improved enquiry navigation",
-      "summary": "Preserved course and area details in enquiry navigation.",
+      "title": "Keep course and area details in quote forms",
+      "summary": "Carried page context through mobile quote links and added county/course details to existing contact and booking forms.",
       "completed_on": "2026-11-03",
       "implementation": [
-        "src/lib/quote-context.ts",
-        "src/components/site/MobileCallBar.tsx"
+        "src/components/site/MobileCallBar.tsx",
+        "src/routes/contact.tsx",
+        "src/routes/book.tsx"
       ],
       "entry": "updates/enquiry-navigation.md",
       "recorded": false
     },
     {
       "id": "local-course-coverage",
-      "title": "Updated training coverage pages",
-      "summary": "Aligned local pages with published training coverage.",
+      "title": "Clarify uncovered training-page headings",
+      "summary": "Changed uncovered training-page titles and headings to describe coverage rather than promise local delivery.",
       "completed_on": "2026-11-03",
       "implementation": [
-        "src/routes/coverage_.$slug.tsx",
         "src/routes/training_.$service_.$county.tsx"
       ],
       "entry": "updates/training-coverage.md",
@@ -91,11 +91,10 @@
     },
     {
       "id": "accurate-public-sitemap",
-      "title": "Updated sitemap",
-      "summary": "Corrected sitemap dates and retired course routes.",
+      "title": "Correct sitemap dates and retired URLs",
+      "summary": "Integrated the existing date helper, excluded retired course URLs and returned a retryable error when sitemap content is unavailable.",
       "completed_on": "2026-11-03",
       "implementation": [
-        "src/lib/sitemap.ts",
         "src/routes/sitemap[.]xml.tsx"
       ],
       "entry": "updates/sitemap.md",
@@ -103,8 +102,8 @@
     },
     {
       "id": "mobile-cookie-enquiry-layout",
-      "title": "Improved mobile enquiry layout",
-      "summary": "Prevented the cookie banner from overlapping the mobile enquiry bar.",
+      "title": "Separate cookie notice from mobile enquiry bar",
+      "summary": "Moved the cookie notice above the existing mobile enquiry bar and added safe-area padding and page-bottom space.",
       "completed_on": "2026-11-03",
       "implementation": [
         "src/components/site/CookieBanner.tsx",
@@ -112,6 +111,23 @@
       ],
       "entry": "updates/mobile-enquiry-layout.md",
       "recorded": false
+    }
+  ],
+  "pending_items": [
+    {
+      "id": "christmas-team-and-accreditation-copy",
+      "title": "Christmas copy and accreditation text",
+      "prepared_on": "2026-11-05",
+      "status": "awaiting_preview_approval",
+      "deployed_on": null,
+      "entry": "updates/christmas-copy-accreditation.md",
+      "implementation": [
+        "src/components/site/ChristmasForkliftBanner.tsx",
+        "src/routes/book.tsx",
+        "src/routes/services_.$slug.tsx",
+        "src/routes/$slug.tsx",
+        "src/routes/training_.$service_.$county.tsx"
+      ]
     }
   ]
 }

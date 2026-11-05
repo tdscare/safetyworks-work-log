@@ -1,7 +1,5 @@
-# SEO optimization
+# Service metadata
 
-Improved service titles and canonical URLs.
+The saved baseline already contains the cited metadata code. An earlier comparison is needed before attributing a new SEO change.
 
-Completed: 3 November 2026.
-
-Source: `src/lib/seo.ts` and service-page metadata.
+Previous entry: 3 November 2026.
