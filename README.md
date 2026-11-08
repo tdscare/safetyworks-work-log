@@ -2,6 +2,7 @@
 
 ## 5 November 2026
 
+- [Research source handling](updates/research-source-handling.md).
 - [Contact research](updates/contact-research.md).
 - [Service metadata check](updates/service-metadata-review.md).
 - [Private file permissions](updates/private-file-permissions.md).
