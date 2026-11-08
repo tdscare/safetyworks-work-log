@@ -2,6 +2,7 @@
 
 ## 8 November 2026
 
+- [Booking page cleanup](updates/booking-page-cleanup.md).
 - [Website preview process](updates/website-preview-process.md).
 
 ## 5 November 2026

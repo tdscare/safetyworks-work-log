@@ -246,6 +246,24 @@
       "recorded": true,
       "recorded_at": "2026-11-08T02:13:15.463Z",
       "recorded_on": "2026-11-08"
+    },
+    {
+      "id": "booking-page-cleanup-2026-11-08",
+      "title": "Booking page cleanup",
+      "summary": "Prepared the approved booking-page cleanup for publishing.",
+      "completed_on": "2026-11-08",
+      "prepared_on": "2026-11-08",
+      "approved_on": "2026-11-08",
+      "status": "approved_ready_for_publish",
+      "scope": "website_release_candidate",
+      "deployed_on": null,
+      "entry": "updates/booking-page-cleanup.md",
+      "source_evidence": "booking-preview-receipt-2026-11-08.json",
+      "source_patch_commit": "754104874500f0455454ab0b5caac987033319c8",
+      "source_branch": "booking-cleanup-2026-11-08",
+      "recorded": true,
+      "recorded_at": "2026-11-08T02:31:45.469Z",
+      "recorded_on": "2026-11-08"
     }
   ],
   "pending_items": []
