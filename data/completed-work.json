@@ -230,6 +230,22 @@
       "recorded_at": "2026-11-08T00:51:59.792Z",
       "recorded_on": "2026-11-08",
       "recording_note": "Previously unrecorded work completed on 5 November."
+    },
+    {
+      "id": "website-before-after-preview-process-2026-11-08",
+      "title": "Website preview process",
+      "summary": "Agreed before-and-after previews for website changes.",
+      "completed_on": "2026-11-08",
+      "scope": "website_review_process",
+      "status": "documented",
+      "entry": "updates/website-preview-process.md",
+      "implementation": [
+        "AGENTS.md"
+      ],
+      "source_evidence": "website-preview-policy-2026-11-08.json",
+      "recorded": true,
+      "recorded_at": "2026-11-08T02:13:15.463Z",
+      "recorded_on": "2026-11-08"
     }
   ],
   "pending_items": []

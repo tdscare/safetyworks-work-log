@@ -1,5 +1,9 @@
 # SafetyWorks updates
 
+## 8 November 2026
+
+- [Website preview process](updates/website-preview-process.md).
+
 ## 5 November 2026
 
 - [Company checks](updates/company-checks.md).

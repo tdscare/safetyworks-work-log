@@ -15,3 +15,5 @@ Upload only work-log documents and the small work manifest. Never copy website s
 Once the historical backlog is recorded, add an update only when further completed work can be verified. If nothing qualifies, leave the repository unchanged.
 
 The user confirmed on 8 November 2026 that this repository should remain public. Publish only short work-log documents and minimal manifest metadata; keep detailed local evidence private and never upload private application data. Verify the connected account and public visibility before writing; do not change repository access.
+
+Every proposed website change requires actual Before and After pictures, shown in the chat at the same page and viewport, followed by explicit approval before live publishing. Describe nonvisual changes accurately and label sample-data previews. This work-log repository does not authorize website code changes or deployment.
