@@ -6,10 +6,12 @@ Separate completed changes may have separate short updates, including within the
 
 Before recording an item, verify the implementation and actual completion date against source files and saved build, test or deployment records. Use `data/completed-work.json` to avoid duplicates. Keep each update short and record each verified item once. Keep its actual completion date in the entry; never backdate Git commits or present a historical item as work just performed.
 
-Describe the specific change from the earlier site, not the existence of a feature. Check the saved pre-change source or a reliable commit diff; do not credit work already present in Keenos' site as newly performed. The enquiry form already existed. Its validation change must be described precisely and retain the 3 November work date. Invisibility to a visitor is not evidence that a backend change happened. Scheduled retrospective posts are paused pending provenance review; do not resume without the user's instruction.
+Describe the specific change from the earlier site, not the existence of a feature. Check the saved pre-change source or a reliable commit diff; do not credit work already present in Keenos' site as newly performed. The enquiry form already existed. Its validation change must be described precisely and retain the 3 November work date. Invisibility to a visitor is not evidence that a backend change happened. Scheduled checks are resumed through 15 November 2026 within the user's working windows. Several genuine changes may be recorded together; skip a check when no unrecorded work can be verified.
 
 Every commit must add or correct useful documentation. Do not make empty commits, repeat an item to create activity, invent results, or claim image caching or preloading improvements without verified changes. Approval-pending local changes must remain clearly labelled pending and must not be counted as deployed work.
 
 Upload only work-log documents and the small work manifest. Never copy website source, environment files, credentials, databases, prospect details or raw logs into this repository. Do not change repository visibility, collaborators, workflows or deployment configuration. Do not change the website or send messages to clients.
 
 Once the historical backlog is recorded, add an update only when further completed work can be verified. If nothing qualifies, leave the repository unchanged.
+
+The user confirmed on 8 November 2026 that this repository should remain public. Publish only short work-log documents and minimal manifest metadata; keep detailed local evidence private and never upload private application data. Verify the connected account and public visibility before writing; do not change repository access.
