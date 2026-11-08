@@ -213,6 +213,23 @@
       "recorded_at": "2026-11-08T00:51:58.623Z",
       "recorded_on": "2026-11-08",
       "recording_note": "Previously unrecorded work completed on 5 November."
+    },
+    {
+      "id": "outreach-company-checks-2026-11-05",
+      "title": "Company checks",
+      "summary": "Improved company and training-area checks.",
+      "entry": "updates/company-checks.md",
+      "implementation": [
+        "outreach/server/preparation.mjs"
+      ],
+      "completed_on": "2026-11-05",
+      "scope": "private_outreach_app",
+      "status": "applied_locally",
+      "source_evidence": "outreach-scale-receipt-2026-11-05.json",
+      "recorded": true,
+      "recorded_at": "2026-11-08T00:51:59.792Z",
+      "recorded_on": "2026-11-08",
+      "recording_note": "Previously unrecorded work completed on 5 November."
     }
   ],
   "pending_items": []
