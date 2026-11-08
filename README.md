@@ -17,4 +17,7 @@
 
 ## 3 November 2026
 
+- [Conversion tracking](updates/enquiry-tracking.md).
+- [Analytics consent](updates/analytics-consent.md).
+- [Analytics privacy](updates/analytics-privacy.md).
 - [Allow phone-only enquiries](updates/enquiry-forms.md)

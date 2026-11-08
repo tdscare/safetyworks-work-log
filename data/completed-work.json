@@ -34,38 +34,44 @@
     },
     {
       "id": "accepted-enquiry-measurement",
-      "title": "Track accepted homepage enquiries",
-      "summary": "Connected successful homepage enquiries to existing lead tracking and added duplicate-reference protection.",
+      "title": "Conversion tracking",
+      "summary": "Connected accepted homepage enquiries to lead tracking and prevented duplicate reference events.",
       "completed_on": "2026-11-03",
       "implementation": [
         "src/lib/trackConversion.ts",
         "src/routes/index.tsx"
       ],
       "entry": "updates/enquiry-tracking.md",
-      "recorded": false
+      "recorded": true,
+      "recorded_at": "2026-11-08T09:22:34Z",
+      "recorded_on": "2026-11-08"
     },
     {
       "id": "consent-aware-analytics",
-      "title": "Restrict analytics loading and update consent handling",
-      "summary": "Restricted existing analytics loading to production, validated tag IDs and added explicit consent updates.",
+      "title": "Analytics consent",
+      "summary": "Restricted analytics loading to production and updated consent handling.",
       "completed_on": "2026-11-03",
       "implementation": [
         "src/components/site/AnalyticsInjector.tsx"
       ],
       "entry": "updates/analytics-consent.md",
-      "recorded": false
+      "recorded": true,
+      "recorded_at": "2026-11-08T09:22:34Z",
+      "recorded_on": "2026-11-08"
     },
     {
       "id": "private-route-measurement",
-      "title": "Filter manual page-view details",
-      "summary": "Added manual GA4 page-view tracking that omits query details and skips private routes.",
+      "title": "Analytics privacy",
+      "summary": "Added manual page-view filtering for private routes and URL query details.",
       "completed_on": "2026-11-03",
       "implementation": [
         "src/lib/analytics.ts",
         "src/components/site/AnalyticsInjector.tsx"
       ],
       "entry": "updates/analytics-privacy.md",
-      "recorded": false
+      "recorded": true,
+      "recorded_at": "2026-11-08T09:22:34Z",
+      "recorded_on": "2026-11-08"
     },
     {
       "id": "enquiry-course-context",
