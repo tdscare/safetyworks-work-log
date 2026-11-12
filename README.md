@@ -1,5 +1,9 @@
 # SafetyWorks updates
 
+## 10 November 2026
+
+- [Privacy and cookie updates](updates/privacy-and-cookie-updates.md).
+
 ## 8 November 2026
 
 - [Booking page cleanup](updates/booking-page-cleanup.md).

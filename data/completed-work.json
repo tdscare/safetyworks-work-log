@@ -270,6 +270,19 @@
       "recorded": true,
       "recorded_at": "2026-11-08T02:31:45.469Z",
       "recorded_on": "2026-11-08"
+    },
+    {
+      "id": "privacy-and-cookie-preview-2026-11-10",
+      "title": "Privacy and cookie updates",
+      "summary": "Prepared updated policies, cookie choices, form privacy notices and a deletion request link for review.",
+      "completed_on": "2026-11-10",
+      "prepared_on": "2026-11-10",
+      "status": "prepared_for_review",
+      "scope": "website_preview",
+      "entry": "updates/privacy-and-cookie-updates.md",
+      "recorded": true,
+      "recorded_at": "2026-11-12T15:38:50Z",
+      "recorded_on": "2026-11-12"
     }
   ],
   "pending_items": []
