@@ -337,6 +337,30 @@
       "recorded": true,
       "recorded_at": "2026-11-25T16:46:46.935Z",
       "recorded_on": "2026-11-25"
+    },
+    {
+      "id": "outreach-tab-send-now-2026-11-25",
+      "title": "Outreach tab update",
+      "summary": "Published the Send now button to the website's Outreach tab.",
+      "prepared_on": "2026-11-25",
+      "approved_on": "2026-11-25",
+      "status": "published",
+      "scope": "website_admin_outreach_tab",
+      "deployed_on": "2026-11-25",
+      "deployed_at": "2026-11-25T18:24:10Z",
+      "cloudflare_version": "5fa77c68-a254-4a7d-a4c5-9a0dcda539ca",
+      "entry": "updates/outreach-tab-update.md",
+      "implementation": [
+        "src/outreach/src/App.jsx",
+        "src/outreach/src/SendBatchDialog.jsx",
+        "src/outreach/src/SendingSetup.jsx",
+        "src/outreach/src/styles.css"
+      ],
+      "source_evidence": "outreach/website-release/2026-11-25-send-now/README.md",
+      "completed_on": "2026-11-25",
+      "recorded": true,
+      "recorded_at": "2026-11-25T18:33:23.737Z",
+      "recorded_on": "2026-11-25"
     }
   ],
   "pending_items": []
