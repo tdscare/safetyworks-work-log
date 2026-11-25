@@ -318,6 +318,25 @@
       "recorded": true,
       "recorded_at": "2026-11-25T16:46:46.825Z",
       "recorded_on": "2026-11-25"
+    },
+    {
+      "id": "outreach-reliability-2026-11-25",
+      "title": "Outreach reliability",
+      "summary": "Fixed the outreach app restarting when busy.",
+      "entry": "updates/outreach-reliability.md",
+      "implementation": [
+        "outreach/launcher.mjs",
+        "outreach/server/main.mjs",
+        "outreach/server/research.mjs",
+        "outreach/server/contact-names.mjs"
+      ],
+      "completed_on": "2026-11-25",
+      "scope": "private_outreach_app",
+      "status": "applied_locally",
+      "source_evidence": "OUTREACH-UPDATE-2026-11-25.md",
+      "recorded": true,
+      "recorded_at": "2026-11-25T16:46:46.935Z",
+      "recorded_on": "2026-11-25"
     }
   ],
   "pending_items": []
