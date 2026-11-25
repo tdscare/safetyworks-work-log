@@ -283,6 +283,23 @@
       "recorded": true,
       "recorded_at": "2026-11-12T15:38:50Z",
       "recorded_on": "2026-11-12"
+    },
+    {
+      "id": "outreach-companies-house-search-2026-11-25",
+      "title": "Companies House search",
+      "summary": "Added Companies House as a source of companies for outreach research.",
+      "entry": "updates/companies-house-search.md",
+      "implementation": [
+        "outreach/server/companies-house.mjs",
+        "outreach/server/main.mjs"
+      ],
+      "completed_on": "2026-11-25",
+      "scope": "private_outreach_app",
+      "status": "applied_locally",
+      "source_evidence": "OUTREACH-UPDATE-2026-11-25.md",
+      "recorded": true,
+      "recorded_at": "2026-11-25T16:46:46.703Z",
+      "recorded_on": "2026-11-25"
     }
   ],
   "pending_items": []

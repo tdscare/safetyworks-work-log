@@ -1,5 +1,9 @@
 # SafetyWorks updates
 
+## 25 November 2026
+
+- [Companies House search](updates/companies-house-search.md).
+
 ## 10 November 2026
 
 - [Privacy and cookie updates](updates/privacy-and-cookie-updates.md).
