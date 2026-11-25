@@ -3,6 +3,7 @@
 ## 25 November 2026
 
 - [Companies House search](updates/companies-house-search.md).
+- [Send now button](updates/send-now-button.md).
 
 ## 10 November 2026
 

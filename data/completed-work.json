@@ -300,6 +300,24 @@
       "recorded": true,
       "recorded_at": "2026-11-25T16:46:46.703Z",
       "recorded_on": "2026-11-25"
+    },
+    {
+      "id": "outreach-send-now-button-2026-11-25",
+      "title": "Send now button",
+      "summary": "Changed the outreach sending button to Send now, with ready contacts already listed.",
+      "entry": "updates/send-now-button.md",
+      "implementation": [
+        "outreach/src/App.jsx",
+        "outreach/src/SendBatchDialog.jsx",
+        "outreach/src/SendingSetup.jsx"
+      ],
+      "completed_on": "2026-11-25",
+      "scope": "private_outreach_app",
+      "status": "applied_locally",
+      "source_evidence": "OUTREACH-UPDATE-2026-11-25.md",
+      "recorded": true,
+      "recorded_at": "2026-11-25T16:46:46.825Z",
+      "recorded_on": "2026-11-25"
     }
   ],
   "pending_items": []
