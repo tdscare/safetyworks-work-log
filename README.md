@@ -6,6 +6,7 @@
 - [Send now button](updates/send-now-button.md).
 - [Outreach reliability](updates/outreach-reliability.md).
 - [Outreach tab update](updates/outreach-tab-update.md).
+- [Outreach wording](updates/outreach-wording.md).
 
 ## 10 November 2026
 

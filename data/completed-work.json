@@ -361,6 +361,29 @@
       "recorded": true,
       "recorded_at": "2026-11-25T18:33:23.737Z",
       "recorded_on": "2026-11-25"
+    },
+    {
+      "id": "outreach-wording-2026-11-25",
+      "title": "Outreach wording",
+      "summary": "Took the explanatory notes out of the outreach dashboard.",
+      "entry": "updates/outreach-wording.md",
+      "implementation": [
+        "outreach/src/App.jsx",
+        "outreach/src/AnswerPanel.jsx",
+        "outreach/src/ApolloDialog.jsx",
+        "outreach/src/OverviewPanel.jsx",
+        "outreach/src/ReplyPreferences.jsx",
+        "outreach/src/ResearchPanel.jsx",
+        "outreach/src/SendBatchDialog.jsx",
+        "outreach/src/styles.css"
+      ],
+      "completed_on": "2026-11-25",
+      "scope": "private_outreach_app",
+      "status": "applied_locally",
+      "source_evidence": "OUTREACH-UPDATE-2026-11-25.md",
+      "recorded": true,
+      "recorded_at": "2026-11-25T19:03:19.692Z",
+      "recorded_on": "2026-11-25"
     }
   ],
   "pending_items": []
